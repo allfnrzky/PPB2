@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "351163541483",
+    "project_id": "todoku-b87bb",
+    "storage_bucket": "todoku-b87bb.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:351163541483:android:31921fc039d07ce7ca9bae",
+        "android_client_info": {
+          "package_name": "com.example.ppb2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "351163541483-lv7ngjtmibqbq5t42i17k31sntn9c71g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ppb2",
+            "certificate_hash": "3c82aded03c20da491d13be722a768bd04ca67fd"
+          }
+        },
+        {
+          "client_id": "351163541483-vnb62789r5k6q3gvgsqs5mr8vnjjqic7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBaHhjiyBz94pnCvyQ6Quiy0TfMyXYyPuA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "351163541483-vnb62789r5k6q3gvgsqs5mr8vnjjqic7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
