@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         binding = ActivityMainBinding.inflate(layoutInflater)
-        setContentView(binding.root) // ✅ hanya ini, jangan pakai setContentView(R.layout...)
+        setContentView(binding.root)
 
         // Inisialisasi CredentialManager & FirebaseAuth
         credentialManager = CredentialManager.create(this)
@@ -47,7 +47,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun registerEvents() {
         binding.btnGoogle.setOnClickListener {
-            Log.d("GoogleLogin", "Button clicked") // Debugging klik tombol
+//            Log.d("GoogleLogin", "Button clicked") // Debugging klik tombol
             lifecycleScope.launch {
                 val request = prepareRequest()
                 loginByGoogle(request)
